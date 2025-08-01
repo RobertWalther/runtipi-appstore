@@ -1,0 +1,17 @@
+{
+  "id": "paperless-ai",
+  "name": "Paperless AI",
+  "short_desc": "AI-gestützte Automatisierung & RAG-Chat für Paperless-NGX",
+  "version": "latest",
+  "tipi_version": 3,
+  "port": 3000,
+  "categories": ["productivity", "ai"],
+  "author": "clusterzx",
+  "website": "https://github.com/clusterzx/paperless-ai",
+  "source": "https://github.com/clusterzx/paperless-ai",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "supported_architectures": ["amd64", "arm64"],
+  "created_at": 1725105600000
+}
