@@ -8,10 +8,10 @@
       "env": {
         "PAPERLESS_URL": "${PAPERLESS_URL}",
         "PAPERLESS_API_KEY": "${PAPERLESS_API_KEY}",
-        "OPENAI_API_KEY": "${OPENAI_API_KEY}",      // oder OLLAMA_URL
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",      
         "PORT": "3000"
       },
-      "depends_on": ["paperless"]        // wenn Paperless-ngx ebenfalls in Runtipi läuft
+      "depends_on": ["paperless"]  
     }
   ]
 }
