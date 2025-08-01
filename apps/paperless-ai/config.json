@@ -5,7 +5,7 @@
   "version": "latest",
   "tipi_version": 3,
   "port": 3000,
-  "categories": ["productivity", "ai"],
+  "categories": ["utilities", "ai"],
   "author": "clusterzx",
   "website": "https://github.com/clusterzx/paperless-ai",
   "source": "https://github.com/clusterzx/paperless-ai",
