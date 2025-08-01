@@ -4,12 +4,12 @@
       "name": "paperless-ai",
       "image": "clusterzx/paperless-ai:latest",
       "isMain": true,
-      "internalPort": 3000,
+      "internalPort": 8013,
       "env": {
         "PAPERLESS_URL": "${PAPERLESS_URL}",
         "PAPERLESS_API_KEY": "${PAPERLESS_API_KEY}",
         "OPENAI_API_KEY": "${OPENAI_API_KEY}",      
-        "PORT": "3000"
+        "PORT": "8013"
       },
       "depends_on": ["paperless"]  
     }
