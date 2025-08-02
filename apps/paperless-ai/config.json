@@ -13,7 +13,7 @@
   "exposable": true,
   "dynamic_config": true,
   "supported_architectures": ["amd64", "arm64"],
-  "created_at": 1725105600000
+  "created_at": 1725105600000,
   "userConfig": [
   {
     "label": "Paperless API URL",
