@@ -1,17 +1,20 @@
 {
+  "$schema": "../dynamic-compose-schema.json",
   "services": [
     {
       "name": "paperless-ai",
       "image": "clusterzx/paperless-ai:latest",
       "isMain": true,
-      "internalPort": 8013,
+      "internalPort": 3000,
       "environment": {
-        "PAPERLESS_URL": "${PAPERLESS_URL}",
-        "PAPERLESS_API_KEY": "${PAPERLESS_API_KEY}",
-        "OPENAI_API_KEY": "${OPENAI_API_KEY}",      
-        "PORT": "8013"
+        "PAPERLESS_AI_PORT": "${APP_PORT}"
       },
-      "depends_on": ["paperless"]  
+      "volumes": [
+        {
+          "hostPath": "${APP_DATA_DIR}/data",
+          "containerPath": "/app/data"
+        }
+      ]
     }
   ]
 }
