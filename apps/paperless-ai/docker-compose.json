@@ -5,7 +5,7 @@
       "name": "paperless-ai",
       "image": "clusterzx/paperless-ai:latest",
       "isMain": true,
-      "internalPort": 8000,
+      "internalPort": 3000,
       "environment": {
         "PAPERLESS_AI_PORT": "${APP_PORT}"
       },
